@@ -9,10 +9,13 @@
 
 body {
     background: #0a0a0a;
-    color: #fff;
+    color:black;
     overflow-x: hidden;
+ 
 }
-
+.home-content{
+    margin-top: 40vw;
+}
 #header {
     position: fixed;
     width: 100%;
@@ -22,6 +25,7 @@ body {
     align-items: center;
     padding: 15px 5%;
     z-index: 1000;
+  
 }
 
 .logo {
@@ -70,11 +74,14 @@ body {
 
 .text-about {
     flex: 1;
+    margin-top: 190vw;
 }
 
 .text-about h2 {
     font-size: 2rem;
+ 
     color: #333;
+
 }
 
 .text-about span {
@@ -113,6 +120,11 @@ body {
         width: 150px;
         height: 150px;
     }
+    .text-about {
+        
+        margin-top: 100vw;
+    }
+    
 }
 
 
@@ -218,8 +230,7 @@ body {
     text-decoration: underline;
 }
 
-/* Contact Section */
-/* Contact Section */
+
 .contactme {
     text-align: center;
     padding: 60px 20px;
@@ -237,7 +248,7 @@ body {
     margin-bottom: 20px;
 }
 
-/* Input Fields */
+
 .contactme input, 
 .contactme textarea {
     width: 100%;
@@ -253,15 +264,14 @@ body {
     transition: 0.3s ease-in-out;
 }
 
-/* Input Field Hover Effect */
+
 .contactme input:focus, 
 .contactme textarea:focus {
     border-color: white;
     box-shadow: 0 0 10px cyan;
 }
 
-/* Button */
-/* Submit Button */
+
 .contactme button {
     display: block;
     width: 100%;
@@ -276,17 +286,17 @@ body {
     transition: 0.3s ease-in-out;
     color: black;
     text-transform: uppercase;
-    margin: 20px auto 0; /* Center the button */
+    margin: 20px auto 0; 
 }
 
-/* Button Hover Effect */
+
 .contactme button:hover {
     background: white;
     color: black;
     box-shadow: 0 0 15px cyan;
 }
 
-/* Responsive Design */
+
 @media (max-width: 600px) {
     .contactme button {
         width: 90%;
@@ -295,7 +305,7 @@ body {
 }
 
 
-/* Responsive Design */
+
 @media (max-width: 600px) {
     .contactme {
         padding: 40px 10px;
@@ -312,7 +322,7 @@ body {
     }
 }
 
-/* Footer */
+
 footer {
     text-align: center;
     padding: 20px;
